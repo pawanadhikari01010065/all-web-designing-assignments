@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Hotel Room Booking Form</title>
+     <style> body {border: 1px solid black; width: 500px; align-items: center;padding-bottom: 35px; padding-left: 20px;padding-right: 20px;text-align: center;}
+
+     </style>
+</head>
+<body >
+    <h1>Hotel Room Booking Form</h1>    
+    <form>
+        <div>
+            <label for="fname">Full Name:</label>
+            <input id="fname" type="text" required placeholder=" Your name">
+        </div><br>
+        <div>
+            <label for="Email">Email:</label>
+            <input id="Email" type="email" required placeholder="Your Email">
+        </div><br>
+        <div>
+            <label for="Phone">Phone:</label>
+            <input id="Phone" type="tel" required maxlength="10" placeholder="Your contact details">
+        </div><br>
+        <div>
+            <label for="Cheak-in">Cheak-in Date:</label>
+            <input id="Cheak-in" type="date" required>
+        </div><br>
+        <div>
+            <label for="Cheak-out">Cheak-out Date:</label>
+            <input id="Cheak-out" type="date" required>            
+        </div><br>
+        <div>
+            <label for="Room-Type">Room Type:</label>
+            <select id="Room-Type" required>
+                <option>Single Room</option>
+                <option>Double Room</option>
+                <option>Triple Room</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="no. of guests">Number of Guests:</label>
+            <input id="no. of guests" type="number" max="10" required>
+        </div><br>
+        <div>
+            <label for="Special Requests">Special Requests:</label>
+            <textarea id="Special Requests"   rows="5" cols="50"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="Book Now" >
+            <input type="reset"  value="Reset Form">
+        </div>
+    </form>
+</body>
+</html>
+
+
+    
