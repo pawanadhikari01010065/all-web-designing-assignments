@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Experement5</title>
+</head>
+    
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <hr>
+    <form>
+        <div>
+            <label for="Name">Full Name:</label>
+            <input id="Name" name="username" type="text" placeholder="Enter your full name" required>
+        </div><br>
+        <div>
+            <label for="Email">Email:</label>
+            <input id="Email" name="user-email" type="email" placeholder="Enter valid email address" required>
+        </div><br>
+        <div>
+            <label for="Password">Password:</label>
+            <input id="Password" name="user-password" type="password" required maxlength="20" placeholder="Enter password" > 
+        </div><br>
+        <div>
+            <label>Gender:
+
+                <input id="Male" type="radio" name="Gender" value="Male">
+                <label for="Male">Male</label>
+            
+                <input id="Female"type="radio" name="Gender" value="Female">
+                <label for="Female">Female</label>
+            
+                <input id="Other" type="radio" name="Gender" value="Other">  
+                <label for="Other">Other</label>
+            </label>
+        </div><br>
+        <div>
+            <label for="Course">Course:</label>
+            <select id="Course" required name="Course">
+                <Option disabled selected >--Select Course--</Option>
+                <option value="B.Tech">B.Tech (Bachelor of Technology)</option>
+                <option value="B.Sc">B.Sc (Bachelor of Science)</option>
+                <option value="B.Com">B.Com (Bachelor of Commerce)</option>
+                <option value="B.A">B.A (Bachelor of Arts)</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="Contactno.">Contact No:</label>
+            <input id="Contactno." type="tel" required maxlength="10" placeholder="Enter phone number">
+        </div>
+        <br>
+        <div>
+            <label for="Address" style="display: block; ">Address:</label>
+            <textarea placeholder="Enter your Address" required cols="50" rows="5" id="Address" name="address"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+
+    </form>
+    <br><br>
+    <hr>
+</body>
+</html>
